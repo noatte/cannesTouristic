@@ -1,14 +1,14 @@
 {
     "markers" : [
         {
-            "name": "home",
+            "name": "Noa's home",
             "lat": 43.561309814453125,
             "lng": 7.009881973266602
         },
         {
-            "name": "palais des festivals",
-            "lat": 43.551597595214844,
-            "lng": 7.0164265632629395
+            "name": "Palais des festivals",
+            "lat": 43.550830491576875,
+            "lng": 7.018419396208895
         },
         {
             "name": "POV : Le suquet",
