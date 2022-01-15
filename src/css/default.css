@@ -1,5 +1,9 @@
+ .clicked {
+   background-color: rgb(124, 194, 255)!important;
+ }
+
  #menu {
-     background-color: aliceblue;
+     background-color: rgb(240, 248, 255);
  }
 
  #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */

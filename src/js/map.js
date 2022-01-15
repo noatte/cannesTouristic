@@ -28,6 +28,11 @@ function initMap() {
     item.addEventListener('click', event => {
       //handle click
       var idclick = item.id;
+      var allLi = document.getElementsByClassName("mdc-list-item");
+      for (var i = 0; i < allLi.length; i++) {
+          allLi[i].classList.remove("clicked");
+      }
+      item.classList.add("clicked");
       var locationB = {
         lat: jsonFile.markers[idclick].lat, 
         lng: jsonFile.markers[idclick].lng
