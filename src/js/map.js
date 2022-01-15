@@ -12,7 +12,7 @@ function initMap() {
 
   for (let n = 0; n < jsonLength; n++) {
 
-    $('#menu').append('<li id="'+n+'" class="mdc-list-item"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text" href="#" title="' + jsonFile.markers[n].name + '"><span class="mdc-list-item__primary-text">'+ jsonFile.markers[n].name +'</span><span class="mdc-list-item__secondary-text">Secondary text</span></span></li>');
+    $('#menu').append('<li id="'+n+'" class="mdc-list-item"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text" href="#" title="' + jsonFile.markers[n].name + '"><span class="mdc-list-item__primary-text">'+ jsonFile.markers[n].name +'</span><span class="mdc-list-item__secondary-text">'+ jsonFile.markers[n].description +'</span></span></li>');
 
     new google.maps.Marker({
         position: { 
