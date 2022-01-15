@@ -3,7 +3,7 @@ let map;
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 43.552847, lng: 7.017369 },
-    zoom: 10,
+    zoom: 13,
   });
 
   var jsonFile = JSON.parse(loadFile("src/map.json"));
