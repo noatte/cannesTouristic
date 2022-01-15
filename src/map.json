@@ -16,9 +16,20 @@
             "lng": 7.010606629224014
         },
         {
-            "name": "La croisette, luxury stores : begging",
+            "name": "La croisette, luxury stores : beggining",
             "lat": 43.55095491474537,
             "lng": 7.019211625968169
+        },
+        {
+            "name": "POV: Nice castle",
+            "description": "take the elevator, listed bellow",
+            "lat": 43.69595422587863,
+            "lng": 7.279675639656906
+        },
+        {
+            "name": "Elevator : Nice castle",
+            "lat": 43.69442775152746,
+            "lng": 7.279353690763961
         }
     ]
 }
