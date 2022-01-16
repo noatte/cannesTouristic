@@ -11,8 +11,17 @@ catch (Exception $e)
         die('Erreur : ' . $e->getMessage());
 }
 
+try
+{
 $markersStatement = $db->prepare('UPDATE `markers` SET `checked` = '. $checked .' WHERE `markers`.`id` = ' . $id);
 $markersStatement->execute();
+echo("Your history has been saved");
+}
+catch (Exeption $e)
+{
+echo("Error : ".$e);
+}
+
 
 
 
