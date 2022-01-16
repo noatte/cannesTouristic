@@ -24,12 +24,6 @@ function initMap() {
 
   ");
 
-// echo("var jsonFile = JSON.parse(loadFile(\"src/map.json\"));
-
-//  var jsonLength = jsonFile.markers.length;
-
-//  for (let n = 0; n < jsonLength; n++) {");
-
   foreach ($markers as $marker) {
     if ($marker['checked']) {
       $ischecked = "checked";
